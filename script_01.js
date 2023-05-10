@@ -57,10 +57,10 @@ switch (true) {
     case isJohnOlder:
         console.log("John ist älter");
         break;
-    case isJohnYounger:
-        console.log("John ist jünger");
+    case isJohnEqual:
+        console.log("Sie sind gleich alt");
         break;
     default:
-        console.log("Sie sind gleich alt");
+        console.log("John ist jünger");
         break;
 }
