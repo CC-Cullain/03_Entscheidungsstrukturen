@@ -35,6 +35,7 @@ if (isJohnOlder) {
 }
 
 // Else if fügt eine weitere Bedingung hinzu.
+//  Älter, jünger oder gleichalt
 
 if (isJohnOlder) {
     console.log("John ist älter");
