@@ -30,9 +30,9 @@ console.log("------------------");
 // entweder JA oder nix ... alternativlos
 // Türsteher-Politik (Doors 10 p.m.)
 
-if (isJohnOlder) {
-    console.log("John ist älter");
-}
+// if (isJohnOlder) {
+//     console.log("John ist älter");
+// }
 
 // Else if fügt eine weitere Bedingung hinzu.
 //  Älter, jünger oder gleichalt
@@ -41,7 +41,7 @@ if (isJohnOlder) {
     console.log("John ist älter");
 }
 else if (isJohnEqual) {
-    console.log("John ist gleich alt");
+    console.log("Sie ist gleich alt");
 }
  else {
     console.log("John ist jünger");
@@ -85,6 +85,11 @@ switch (job) {
     case "diver": //hier wird auf Gleichheit getestet
         console.log(firstName + " taucht im Rhein");
         break;
+
+    case "diver": //hier wird auf Gleichheit getestet
+        console.log(firstName + " taucht im Rhein");
+        break;
+
 
     default:
         console.log(firstName + " macht etwas anderes!");
