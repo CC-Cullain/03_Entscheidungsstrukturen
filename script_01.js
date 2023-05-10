@@ -41,7 +41,7 @@ if (isJohnOlder) {
     console.log("John ist älter");
 }
 else if (isJohnEqual) {
-    console.log("Sie ist gleich alt");
+    console.log("Sie sind gleich alt");
 }
  else {
     console.log("John ist jünger");
@@ -102,5 +102,24 @@ switch (job) {
 
     default:
         console.log(firstName + " macht etwas anderes!");
+        break;
+}
+
+/********  Fallunterscheidung / SWITCH|CASE 2 *******/
+
+const cond = true;
+const a = 2;
+
+switch (cond) {
+    case (a == 1):
+        console.log("A hat den Wert 1!");
+        break;
+
+    case (a == 12):
+        console.log("A hat den Wert 2!");
+        break;
+
+    default:
+        console.log("A hat einen andere Wert");
         break;
 }
