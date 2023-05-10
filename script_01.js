@@ -50,6 +50,8 @@ else if (isJohnEqual) {
 /************  Ternäre (ternary) Schreibweise ************/
 // console.log( (isJohnOlder) ? "John is older" : "Mark is older");
 
+/****** Fallunterscheidung / SWITCH|CASE 1 ******/
+
 // Switch ist eine alternative und übersichtlichere Form zu einer If else if Kette
 // Schafft erweiterte Struktur
 
@@ -62,5 +64,29 @@ switch (true) {
         break;
     default:
         console.log("John ist jünger");
+        break;
+}
+
+console.log("-------------");
+
+// Switch mit anderen Variablen als bisher
+
+const firstName = "Jane";
+let job;
+
+job = "driver"; // .. fährt TAXI! / UBER
+job = "diver"; // .. taucht im Rhein
+
+switch (job) {
+    case "driver": //hier wird auf Gleichheit getestet
+        console.log(firstName + " fährt Taxi!");
+        break;
+
+    case "diver": //hier wird auf Gleichheit getestet
+        console.log(firstName + " taucht im Rhein");
+        break;
+
+    default:
+        console.log(firstName + " macht etwas anderes!");
         break;
 }
