@@ -74,10 +74,15 @@ console.log("-------------");
 const firstName = "Jane";
 let job;
 
-job = "driver"; // .. fährt TAXI! / UBER
-job = "diver"; // .. taucht im Rhein
+job = "driver";     // .. fährt TAXI! / UBER
+job = "diver";      // .. taucht im Rhein
+job = "artist";     // .. malt ein Bild!
+job = "pilot";      // .. macht etwas anderes! --> default
+job = "teacher";    // .. unterrichtet!
+job = "instructor"; // .. unterrichtet!
 
 switch (job) {
+
     case "driver": //hier wird auf Gleichheit getestet
         console.log(firstName + " fährt Taxi!");
         break;
@@ -86,10 +91,14 @@ switch (job) {
         console.log(firstName + " taucht im Rhein");
         break;
 
-    case "diver": //hier wird auf Gleichheit getestet
-        console.log(firstName + " taucht im Rhein");
+    case "artist": //hier wird auf Gleichheit getestet
+        console.log(firstName + " malt ein Bild!");
         break;
 
+    case "teacher": //hier wird auf Gleichheit getestet
+    case "instructor": //hier wird auf Gleichheit getestet
+        console.log(firstName + " unterrichtet!");
+        break;  
 
     default:
         console.log(firstName + " macht etwas anderes!");
