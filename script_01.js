@@ -30,9 +30,11 @@ console.log("------------------");
 // entweder JA oder nix ... alternativlos
 // Türsteher-Politik (Doors 10 p.m.)
 
-// if (isJohnOlder) {
-//     console.log("John ist älter");
-// }
+if (isJohnOlder) {
+    console.log("John ist älter");
+}
+
+// Else if fügt eine weitere Bedingung hinzu.
 
 if (isJohnOlder) {
     console.log("John ist älter");
