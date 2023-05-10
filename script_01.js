@@ -44,6 +44,8 @@ else if (isJohnEqual) {
     console.log("John ist jünger");
 }
 
+// Switch ist eine alternative und übersichtlichere Form zu einer If else if Kette
+
 switch (true) {
     case isJohnOlder:
         console.log("John ist älter");
